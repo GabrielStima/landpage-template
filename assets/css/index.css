@@ -1,0 +1,17 @@
+@import url('./header.css');
+@import url('./firstSection.css');
+
+:root{
+    --principal-color: #3A5A40;
+    --secondary-color: #F3F1E8;
+    --tertiary-color: #111111;
+    --quaternary-color: #A3B18A;
+    --quinary-color: #283F2C;
+    --font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: var(--font-family);
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+}

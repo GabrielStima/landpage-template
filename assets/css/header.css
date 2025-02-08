@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    border-bottom: 1px solid var(--principal-color);
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+
+        .logo img{
+            width: 81px;
+            height: 56px;
+        }
+
+        ul{
+            display: flex;
+            gap: 20px;        
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: var(--tertiary-color);
+            }
+        }
+    }
+}
