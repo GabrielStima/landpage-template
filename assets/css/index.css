@@ -3,6 +3,9 @@
 @import url('./secondSection.css');
 @import url('./thirdSection.css');
 @import url('./fourthSection.css');
+@import url('./fifthSection.css');
+@import url('./sixthSection.css');
+@import url('./seventhSection.css');
 
 :root {
     --principal-color: #3A5A40;
@@ -17,4 +20,35 @@ body {
     font-family: var(--font-family);
     background-color: var(--secondary-color);
     color: var(--tertiary-color);
+}
+
+.section-content {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 30px 6%;
+
+    h1,h2 {
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 56px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .cta-button {
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
 }

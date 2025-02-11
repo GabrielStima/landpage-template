@@ -1,0 +1,23 @@
+#seventh-section {
+    background-color: var(--quaternary-color);
+    color: var(--principal-color);
+    flex-direction: column;
+    gap: 0px;
+
+    h2 {
+        margin: 72px 0 30px;
+    }
+
+    p {
+        margin-bottom: 30px;
+    }
+
+    .cta-container {
+        .cta-button {
+            padding: 12px 78px;
+            background-color: var(--principal-color);
+            color: var(--secondary-color);
+            margin-bottom: 30px;
+        }
+    }
+}

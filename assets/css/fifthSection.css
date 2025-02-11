@@ -1,0 +1,27 @@
+#fifth-section {
+    flex-direction: column;
+    gap: 0px;
+
+    h2 {
+        margin: 72px 0 30px;
+    }
+
+    .testimonials {
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        margin: 72px 0;
+
+        .testimonial {
+            width: 378px;
+
+            &>p {
+                font-weight: bold;
+            }
+
+            svg {
+                margin: 10px 0;
+            }
+        }
+    }
+}

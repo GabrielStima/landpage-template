@@ -1,38 +1,24 @@
-.fourth-section {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 30px 0;
-    padding: 30px 0;
+#fourth-section {
+    justify-content: space-between;
     background-color: var(--principal-color);
     color: var(--secondary-color);
 
-    .fourth-section-content {
-        width: 40%;
+    h2 {
+        margin-bottom: 24px;
+    }
 
-        h2 {
-            font-size: 56px;
-            font-weight: bold;
-            margin-bottom: 24px;
-        }
+    p {
+        margin: 10px 0;
+    }
 
-        p {
-            margin: 10px 0;
-        }
+    .cta-container {
+        display: flex;
+        margin-top: 24px;
 
-        .fourth-section-cta {
-            display: flex;
-            margin-top: 24px;
-
-            button {
-                padding: 12px 78px;
-                background-color: var(--secondary-color);
-                color: var(--tertiary-color);
-                font-weight: bold;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-            }
+        .cta-button {
+            padding: 12px 78px;
+            background-color: var(--secondary-color);
+            color: var(--tertiary-color);
         }
     }
 
