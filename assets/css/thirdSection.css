@@ -30,4 +30,21 @@
         }
     }
 
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            text-align: center;
+        }
+
+        .cta-container {
+            flex-direction: column;
+            align-items: center;
+
+            .cta-button {
+                padding: 12px 78px;
+            }
+        }
+    }
 }

@@ -28,4 +28,26 @@
         }
     }
 
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            text-align: center;
+        }
+
+        .cta-container {
+            flex-direction: column;
+            align-items: center;
+
+            .cta-button {
+                margin-bottom: 10px;
+            }
+
+            .cta-description {
+                text-align: center;
+            }
+        }
+    }
+
 }

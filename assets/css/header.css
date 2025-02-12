@@ -21,10 +21,11 @@ header {
 
             a {
                 text-decoration: none;
-                color: var(--tertiary-color);
+                color: #525554;
 
                 &:hover {
                     color: var(--principal-color);
+                    text-decoration: underline;
                 }
             }
         }

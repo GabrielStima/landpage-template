@@ -12,16 +12,32 @@
     margin: 72px 0 30px;
 
     .question {
-      display: flex;
-      align-items: center;
       border-bottom: 1px solid var(--secondary-color);
       border-top: 1px solid var(--secondary-color);
       padding: 20px;
       cursor: pointer;
+      width: 724px;
 
       p {
-        width: 724px;
-        font-weight: bold;
+        width: 100%;
+      }
+
+      .question-container {
+        display: flex;
+        align-items: center;
+
+        p {
+          font-weight: bold;
+        }
+      }
+
+      .question-response {
+        margin-top: 20px;
+        display: none;
+
+        &.show {
+          display: block;
+        }
       }
 
       .arrow {
@@ -31,16 +47,13 @@
         padding: 3px;
         width: 5px;
         height: 5px;
-      }
-
-      .up {
+        transition: rotate .2s ease-in-out;
         transform: rotate(-135deg);
         -webkit-transform: rotate(-135deg);
       }
 
-      .up.active {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
+      .active {
+        rotate: z 180deg;
       }
     }
   }

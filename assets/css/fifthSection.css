@@ -13,7 +13,7 @@
         margin: 72px 0;
 
         .testimonial {
-            width: 378px;
+            max-width: 378px;
 
             &>p {
                 font-weight: bold;
