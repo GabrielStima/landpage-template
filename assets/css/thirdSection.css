@@ -2,29 +2,29 @@
     justify-content: space-evenly;
 
     h2 {
-        margin-bottom: 24px;
+        margin-bottom: 1.5rem;
     }
 
     p {
-        margin: 10px 0 24px;
+        margin: .6rem 0 1.5rem;
     }
 
     ul {
         list-style-type: initial;
-        margin-left: 18px;
+        margin-left: 1.1rem;
 
         li {
-            margin: 10px 0;
-            font-size: 18px;
+            margin: .6rem 0;
+            font-size: 1.1rem;
         }
     }
 
     .cta-container {
         display: flex;
-        margin-top: 24px;
+        margin-top: 1.5rem;
 
         .cta-button {
-            padding: 12px 30px;
+            padding: .7rem 1.8rem;
             background-color: var(--principal-color);
             color: var(--secondary-color);
         }
@@ -33,7 +33,7 @@
     @media screen and (max-width: 768px) {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 1.5rem;
         
         h2 {
             text-align: center;
@@ -44,18 +44,14 @@
             align-items: center;
 
             .cta-button {
-                padding: 12px 78px;
+                padding: .7rem 4.8rem;
             }
         }
     }
 
     @media screen and (max-width: 480px) {
         h2 {
-            font-size: 24px;
-        }
-
-        p {
-            font-size: 16px;
+            font-size: 1.5rem;
         }
 
         img {
@@ -64,13 +60,13 @@
         
         ul {
             li {
-                font-size: 14px;
+                font-size: .8rem;
             }
         }
 
         .cta-container {
             .cta-button {
-                padding: 12px 30px;
+                padding: .7rem 1.8rem;
             }
         }
     }

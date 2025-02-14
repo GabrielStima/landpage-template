@@ -2,43 +2,43 @@
     background-color: var(--quaternary-color);
     color: var(--principal-color);
     flex-direction: column;
-    gap: 0px;
+    gap: 0;
 
     h2 {
-        margin: 72px 0 30px;
+        margin: 4.5rem 0 1.8rem;
     }
 
     p {
-        margin-bottom: 30px;
+        margin-bottom: 1.8rem;
     }
 
     .cta-container {
         .cta-button {
-            padding: 12px 78px;
+            padding: .7rem 4.8rem;
             background-color: var(--principal-color);
             color: var(--secondary-color);
-            margin-bottom: 30px;
+            margin-bottom: 1.8rem;
         }
     }
 
     @media screen and (max-width: 768px) {
         h2 {
-            margin: 30px 0;
+            margin: 1.8rem 0;
         }
     }
 
     @media screen and (max-width: 480px) {
         h2 {
-            font-size: 24px;
+            font-size: 1.5rem;
         }
 
         p {
-            font-size: 16px;
+            font-size: 1rem;
         }
 
         .cta-container {
             .cta-button {
-                padding: 12px 30px;
+                padding: .7rem 1.8rem;
             }
         }
     }

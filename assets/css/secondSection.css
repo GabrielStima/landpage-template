@@ -2,10 +2,10 @@
     background-color: var(--principal-color);
     color: var(--secondary-color);
     flex-direction: column;
-    padding: 100px 0;
+    padding: 6.2rem 0;
 
     h2 {
-        margin-bottom: 100px;
+        margin-bottom: 6.2rem;
         text-align: center;
     }
 
@@ -22,18 +22,18 @@
 
             h3 {
                 font-weight: bold;
-                margin: 24px 0;
-                font-size: 24px;
+                margin: 1.5rem 0;
+                font-size: 1.5rem;
             }
         }
     }
 
     @media screen and (max-width: 768px) {
-        padding: 50px 0;
-        gap: 20px;
+        padding: 3.1rem 0;
+        gap: 1.2rem;
 
         h2 {
-            margin-bottom: 50px;
+            margin-bottom: 3.1rem;
         }
 
         .benefits {
@@ -41,22 +41,22 @@
 
             .benefit {
                 width: 100%;
-                margin-bottom: 50px;
+                margin-bottom: 3.1rem;
             }
         }
     }
 
     @media screen and (max-width: 480px) {
         h2 {
-            font-size: 24px;
+            font-size: 1.5rem;
         }
 
         .benefits {
-            gap: 10px;
+            gap: .6rem;
 
             .benefit {
                 h3 {
-                    font-size: 18px;
+                    font-size: 1.1rem;
                 }
             }
         }

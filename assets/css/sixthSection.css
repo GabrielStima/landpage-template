@@ -2,21 +2,21 @@
   flex-direction: column;
   background-color: var(--principal-color);
   color: var(--secondary-color);
-  gap: 0px;
+  gap: 0;
 
   h2 {
-    margin: 72px 0 30px;
+    margin: 4.5rem 0 1.8rem;
   }
 
   .questions {
-    margin: 72px 0 30px;
+    margin: 4.5rem 0 1.8rem;
 
     .question {
-      border-bottom: 1px solid var(--secondary-color);
-      border-top: 1px solid var(--secondary-color);
-      padding: 20px;
+      border-bottom: .1rem solid var(--secondary-color);
+      border-top: .1rem solid var(--secondary-color);
+      padding: 1.2rem;
       cursor: pointer;
-      width: 724px;
+      width: 45.2rem;
 
       p {
         width: 100%;
@@ -32,7 +32,7 @@
       }
 
       .question-response {
-        margin-top: 20px;
+        margin-top: 1.2rem;
         display: none;
 
         &.show {
@@ -42,11 +42,11 @@
 
       .arrow {
         border: solid var(--secondary-color);
-        border-width: 0 3px 3px 0;
+        border-width: 0 .1rem .1rem 0;
         display: inline-block;
-        padding: 3px;
-        width: 5px;
-        height: 5px;
+        padding: .1rem;
+        width: .3rem;
+        height: .3rem;
         transition: rotate .2s ease-in-out;
         transform: rotate(-135deg);
         -webkit-transform: rotate(-135deg);
@@ -62,20 +62,20 @@
     justify-content: center;
 
     h2 {
-      margin: 30px 0;
+      margin: 1.8rem 0;
       text-align: center;
-    }
-  }
-
-  @media screen and (max-width: 480px) {
-    h2 {
-      font-size: 24px;
     }
 
     .questions {
       .question {
         width: 80vw;
       }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    h2 {
+      font-size: 1.5rem;
     }
   }
 }

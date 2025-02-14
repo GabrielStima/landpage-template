@@ -26,30 +26,30 @@ body {
 .section-content {
     display: flex;
     align-items: center;
-    gap: 80px;
-    padding: 30px 6%;
+    gap: 5rem;
+    padding: 1.8rem 6%;
 
     h1,h2 {
         font-weight: bold;
     }
 
     h1 {
-        font-size: 56px;
+        font-size: 3.5rem;
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     p {
-        font-size: 18px;
+        font-size: 1.1rem;
     }
 
     .cta-button {
         font-weight: bold;
         border: none;
-        border-radius: 5px;
+        border-radius: .3rem;
         cursor: pointer;
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
